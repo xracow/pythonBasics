@@ -7,3 +7,19 @@ try:
 
 except:
     print("Es texto")
+    
+#    ejemplo del profe
+    
+
+    try:
+        while True:
+            one = int(input("First number: "))
+            two = int(input("First number: "))
+            sum = one + two
+            if sum < 10:
+                print("The sum {sum}")
+            else:
+                break
+    except:
+        pass
+    print("bye")

@@ -13,8 +13,8 @@ except:
 
     try:
         while True:
-            one = int(input("First number: "))
-            two = int(input("First number: "))
+            one = int(input("¿First number?: "))
+            two = int(input("¿second one?: "))
             sum = one + two
             if sum < 10:
                 print("The sum {sum}")

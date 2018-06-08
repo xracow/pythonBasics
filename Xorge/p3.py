@@ -15,3 +15,6 @@ if (num % 2) == 0:
     print('is odd!')
 else:
     print('is even!')
+    
+one = int(input("First number: "))
+print('is odd' if (num % 2) == 0 else 'is even')

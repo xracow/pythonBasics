@@ -22,3 +22,21 @@ except:
         Suma += n
         Promedio = Suma / (len(ListNum))
     print(Promedio)
+
+#string
+
+#solucion de renato el maestro
+
+myList = []
+sum = 0
+
+while True:
+    num = input('Get the number')
+    if num.isnumeric():
+        sum += int(num)
+        myList.append(sum)
+    else:
+        break
+    
+    prom = sum/len(myList)
+    print(f'Promedio: {prom}')

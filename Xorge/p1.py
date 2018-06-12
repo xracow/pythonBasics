@@ -9,23 +9,8 @@ while x < y:
     
     #solucion de renato
     
-height= 10
-while height > 0:
-    print("*"*height)
-    height-=1
-
-#height= int(input("Enter height: "))
-while height > 0:
-    print("*"*height)
-    height-=1
-    
-try:
-    height= input("Enter height: ")
-    while True:
-        height= int(height)
-        while height > 0:
-            print("*"*height)
-            height-=1
-        height= input("Enter height: ")
-except:
-    print("Is not a number")
+    heigth= 10
+    while heigth > 0:
+        print("*"*heigth)
+        heigth-=1
+ 

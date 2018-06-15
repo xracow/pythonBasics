@@ -10,3 +10,4 @@ student2 = Student('Favio',[30,65,100])
 
 student2.print_details()
 print(student2.getAverage())
+  
